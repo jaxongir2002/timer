@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<style>
+    .center {
+    right: 50%;
+    bottom: 50%;
+    transform: translate(50%,50%);
+    position: absolute;
+}
+</style>
+<body class="center bg-slate-700 text-slate-500">
+   <div class=" flex gap-4 text-2xl cursor-pointer ">
+  <h3 class="hover:text-white start">
+        Start
+    </h3>  
+    <h3 class="hover:text-white">
+        Lap
+    </h3> 
+    <h3 class="hover:text-white stop">
+        Stop
+    </h3> 
+    <h3 class="hover:text-white restart">
+        Restart
+    </h3> 
+    <h3 class="hover:text-white clear">
+        Clear
+    </h3>
+    <h3 class="hover:text-white">
+        Laps
+    </h3>
+    </div> 
+    <h1 class="text-5xl mt-3 displayTime font-bold text-center">
+ 00:00
+      </h1>
+
+      <script src="script.js"></script>
+</body>
+</html>
